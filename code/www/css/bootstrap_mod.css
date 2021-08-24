@@ -1,0 +1,11 @@
+
+/* Moves the navbar slightly to align with the jumbotron */
+div.navbar-header {
+    padding-left: 8.4%; /* 1/12 - since offset for the rest of the page is 1, out of a possible 12 */
+}
+
+/* Stretches the input (for country selection) across the full coolumn (container) */
+.shiny-input-container:not(.shiny-input-container-inline) {
+    width: 100%;
+    max-width: 100%;
+}
