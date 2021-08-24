@@ -29,11 +29,14 @@ When it comes to choosing a language or software package for data visualization 
 
 (Quick tip: check out the [tidyverse](https://www.tidyverse.org/packages/) package.)
 
-<em><sup>\*</sup>I'm not going to pretend that Python isn't better than R in almost every possible way. For starters, the community is much larger - and this matters. A lot. You'll find more tutorials, more courses. You'll have better luck finding sample code online. You'll have a greater selection of packages to choose from. In fact, Python is so popular it's very likely the company you're at already has Python integrated into their stack, and this makes productionalizing anything you come up with much smoother.</em>
+<em><sup>\*</sup>I'm not going to pretend that Python isn't a great option, perhaps even better than R. For starters, the community is much larger - and this matters. A lot. You'll find more tutorials, more courses. You'll have better luck finding sample code online. You'll have a wider selection of packages to choose from. But you won't be able to order a pizza<sup>\*</sup>. You may have heard this before, it's a pretty common saying. It's meant to drive home the idea that no single programming language or software can do _everything_. It's about choosing the right tool (or combination of tools) for the job.
+
+<sup>\*</sup>As of 24-Aug-2021, you can definitely order a pizza using Python.
+
 
 ## Installation
 
-Visit the official site for [RStudio](https://www.rstudio.com/products/rstudio/) and follow the installation instructions. It's a simple "download and double-click" type of installation. You'll also have to do the same for [R](https://www.r-project.org/). When you've got RStudio setup, create a new notebook. `File`, then `New File`, then `R Notebook`. Finally, paste the below into the first cell or block. That's it! RStudio will find the packages automatically (if you haven't already got them).
+Visit the official site for [RStudio](https://www.rstudio.com/products/rstudio/) and follow the installation instructions. It's a simple "download and double-click" type of installation. You'll also have to do the same for [R](https://www.r-project.org/). When you've got RStudio setup, create a new notebook (`File`, then `New File`, then `R Notebook`). Finally, paste the below into the first cell or block. That's it! RStudio will find the packages automatically (if you haven't already got them).
 
 ```R
 
