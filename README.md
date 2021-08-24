@@ -9,7 +9,7 @@ There's a misconception within the data community that R is only good for statis
 R is also pretty great at custom static visualizations. By _custom_ I mean not a bar chart (or a pie chart - which you should never use).
 
 <p align="center">
-  <img src="assets/A3_COV19_RViz2_Sample.gif"/>
+  <img src="assets/A3_COV19_RViz2_Sample.JPG"/>
 </p>
 
 Here's another popular visualization you might have already seen online. To most everyone it's just a gif, but you can call it a dynamic visualization if you want to sound fancy.
