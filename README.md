@@ -6,7 +6,7 @@ There's a misconception within the data community that R is only good for statis
 
 <em><sup>\*</sup>This dashboard is meant for presentation only, and the data pertaining to COVID-19 is not up-to-date. The last update was on the 29<sup>th</sup> of April.</em>
 
-# Introduction
+## Background
 
 Ask any data scientist and they'll tend to agree, there is a recipe to studying data, and it's this:
 
@@ -16,18 +16,25 @@ Ask any data scientist and they'll tend to agree, there is a recipe to studying 
 4. Productionalise (or share)
 5. Monitor (and update)
 
-There are some T&Cs. You can swap points 2. and 3. or even combine them. You might also jump between these points - the analysis of any data is often an iterative process. That said, the above recipe is as close as you'll ever get to a once-size-fits-all approach.
+There are some T&Cs. You can swap the order of points 2. and 3. or even combine them (ever heard of EDA?). You might also jump between these points - the analysis of any data is often an iterative process. That said, the above recipe is generally a good starting point.
 
-When it comes to choosing a language (or fully-fledged software) for your data visualization needs, it should score pretty high at executing these steps. So who are the top contenders? PowerBI is great for visualizations and shareability, it's pretty bad at data wrangling though (and quite simply horrendous at statistical analysis without applying a great deal of effort). Ditto for Tableau, if you're wondering. So I gave [R](https://www.r-project.org/) (and it's IDE, [RStudio](https://www.rstudio.com/)) a try, and here are the results.
+When it comes to choosing a language or software package it should score pretty high at executing these steps. So what are your options? PowerBI is great for visualizations and shareability. It's pretty bad at data wrangling though (and quite simply horrendous at statistical analysis without applying a great deal of effort). Ditto for Tableau, if you're wondering. Other popular options include [Python](https://www.python.org/)<sup>\*</sup>, or even a combination of MS Excel & Powerpoint. I decided to give [R](https://www.r-project.org/) (and it's IDE, [RStudio](https://www.rstudio.com/)) a go.
 
 1. Clean - I used [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8).
 2. Visualize - I used [ggplot2](https://www.rdocumentation.org/packages/ggplot2/versions/3.3.5).
 3. Analyze (or model) - Again, I used [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8).
-4. Productionalise (or share) - I used [shiny](https://shiny.rstudio.com/).
+4. Productionalize (or share) - I used [shiny](https://shiny.rstudio.com/).
 
-(Quick tip: check out [tidyverse](https://www.tidyverse.org/packages/).)
+(Quick tip: check out the [tidyverse](https://www.tidyverse.org/packages/) package.)
+
+<em><sup>\*</sup>I'm not going to pretend that Python isn't better than R in almost every possible way. For starters, the community is much larger - and this matters. A lot. You'll find more tutorials, more courses. You'll have better luck finding sample code online. You'll have a greater selection of packages to choose from. In fact, Python is so popular it's very likely the company you're at already has Python integrated into their stack, and this makes productionalizing anything you come up with much smoother. </em>
 
 ## Installation
+
+
+
+
+
 
 
 <!-- 
