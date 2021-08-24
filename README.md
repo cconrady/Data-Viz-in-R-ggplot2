@@ -39,7 +39,7 @@ PPS. I'm not going to pretend that Python isn't a great option, perhaps even bet
 
 ## Installation
 
-Visit the official site for [RStudio](https://www.rstudio.com/products/rstudio/) and follow the installation instructions. It's a simple "download and double-click" type of installation. You'll also have to do the same for [R](https://www.r-project.org/). When you've got RStudio setup, create a new notebook (`File`, then `New File`, then `R Notebook`). Finally, paste the below into the first cell or block. That's it! RStudio will find the packages automatically (if you haven't already got them).
+Visit the official site for [RStudio](https://www.rstudio.com/products/rstudio/) and follow the installation instructions. It's a simple "download and double-click" type of installation. You'll also have to do the same for [R](https://www.r-project.org/). When you've got RStudio setup, create a new notebook (`File`, then `New File`, then `R Notebook`). Finally, paste the below into the first cell or block. That's it! RStudio will automatically find and download the packages for you (if you haven't already got them).
 
 ```r
 
