@@ -24,25 +24,24 @@ When it comes to choosing a language or software package for data visualization 
 
 That said, I decided to give [R](https://www.r-project.org/) (and it's IDE, [RStudio](https://www.rstudio.com/)) a go at tackling the basic recipe above.
 
-1. Clean - I used [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8).
-2. Visualize - I used [ggplot2](https://www.rdocumentation.org/packages/ggplot2/versions/3.3.5).
-3. Analyze (or model) - Again, I used [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8).
-4. Productionalize (or share) - I used [shiny](https://shiny.rstudio.com/).
+1. **Clean** - I used [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8).
+2. **Visualize** - I used [ggplot2](https://www.rdocumentation.org/packages/ggplot2/versions/3.3.5).
+3. **Analyze (or model)** - Again, I used [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8).
+4. **Productionalize (or share)** - I used [shiny](https://shiny.rstudio.com/).
 
-You can find the interactive COVID-19 dashboard I created [here](www.google.com), or under the `code` section of this repository.
+You can find the interactive COVID-19 dashboard I created [here](https://github.com/cconrady/Data-Viz-in-R-ggplot2/tree/main/code), or under the `code` section of this repository.
 
-(Quick tip: check out the [tidyverse](https://www.tidyverse.org/packages/) package.)
+PS. Check out the [tidyverse](https://www.tidyverse.org/packages/) package. It's a collection of useful packages like `dplyr` and `ggplot2`, and a bunch of others.
 
-Disclaimer: I'm not going to pretend that Python isn't a great option, perhaps even better than R. For starters, the community is much larger - and this matters. A lot. You'll have better luck finding sample code online. You'll have a wider selection of packages. You'll find more tutorials online, more courses. But you won't be able to order a pizza<sup>\*</sup>. You may have heard this before, it's a pretty common saying. It's meant to drive home the idea that no single programming language or software can do _everything_. It's about choosing the right tool (or combination of tools) for the job. And with this in mind, you should definitely 
+PPS. I'm not going to pretend that Python isn't a great option, perhaps even better than R. For starters, the community is much larger - and this matters. A lot. You'll have better luck finding sample code online. You'll have a wider selection of packages. You'll find more tutorials online, more courses. But you won't be able to order a pizza<sup>\*</sup>. You may have heard this before, it's a pretty common saying. It's meant to drive home the idea that no single programming language or software can do _everything_. It's about choosing the right tool (or combination of tools) for the job. And with this in mind, you should definitely 
 
 <sup>\*</sup>As of 24-Aug-2021, you can definitely order a pizza using Python.
-
 
 ## Installation
 
 Visit the official site for [RStudio](https://www.rstudio.com/products/rstudio/) and follow the installation instructions. It's a simple "download and double-click" type of installation. You'll also have to do the same for [R](https://www.r-project.org/). When you've got RStudio setup, create a new notebook (`File`, then `New File`, then `R Notebook`). Finally, paste the below into the first cell or block. That's it! RStudio will find the packages automatically (if you haven't already got them).
 
-```R
+```python
 
 ## shiny
 if(!require(shiny)) {install.packages("shiny"); library(shiny)}
