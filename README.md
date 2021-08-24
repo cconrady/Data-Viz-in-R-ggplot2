@@ -7,7 +7,7 @@
 
 Still used today, the most widely used method of analysis for marine ecological data is manual review by trained human experts. The majority of analysis of this data is concerned with extracting information on the abundance, distribution and behaviour of the studied marine organism(s). This task can be broken down into four sub-tasks, frequently performed on a target species: (_i_) locate, (_ii_) identify, (_iii_) count, and (_iv_) track. **This research proposes an object detection and tracking algorithm for red roman (_Chrysoblephus laticeps_) in Cape Town, South Africa.** The model is capable of automating all four sub-tasks above at a test accuracy of mAP<sub>50</sub> = 81.45% on previously unseen footage. This research serves as a proof-of-concept that machine learning based methods of video analysis of marine data can replace or at least supplement human analysis.
 
-![CoVid19 Video Overview](assets/A3_Viz_Overview.gif)
+![CoVid19 Video Overview](assets/A3_COV19_RViz1_Sample.gif)
 
 ## Installation
 
