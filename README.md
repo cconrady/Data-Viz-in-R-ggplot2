@@ -2,9 +2,23 @@
 
 There's a misconception within the data community that R is only good for statistical analysis. And yes, R is great for that, but it can produce some pretty stunning data visualizations too! Here I present an interactive dashboard for the early spread of COVID-19<sup>\*</sup>.
 
-![CoVid19 Viz Video Sample](assets/A3_COV19_RViz1_Sample.gif)
+<p align="center">
+  <img src="assets/A3_COV19_RViz1_Sample.gif" alt="animated"/>
+</p>
 
-<em><sup>\*</sup>This dashboard is meant for presentation only, and the data pertaining to COVID-19 is not up-to-date. The last update was on the 29<sup>th</sup> of April.</em>
+R is also pretty great at custom static visualizations. By _custom_ I mean not a bar chart (or a pie chart - which you should never use).
+
+<p align="center">
+  <img src="assets/A3_COV19_RViz2_Sample.gif"/>
+</p>
+
+Here's another popular visualization you might have already seen online. To most everyone it's just a gif, but you can call it a dynamic visualization if you want to sound fancy.
+
+<p align="center">
+  <img src="assets/A3_COV19_Rviz3.gif" alt="animated"/>
+</p>
+
+<em><sup>\*</sup>This visualisations presented here are meant for illustrative purposes only, and the data pertaining to COVID-19 is not up-to-date. The last update was on the 29<sup>th</sup> of April.</em>
 
 ## Background
 
