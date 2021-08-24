@@ -4,7 +4,7 @@ There's a misconception within the data community that R is only good for statis
 
 ![CoVid19 Viz Video Sample](assets/A3_COV19_RViz1_Sample.gif)
 
-<em><sup>\*</sup>This dashboard is meant for presentation only, and the data pertaining to CoVid19 is not up-to-date. The last update was on the 29<sup>th</sup> of April.</em>
+<em><sup>\*</sup>This dashboard is meant for presentation only, and the data pertaining to COVID-19 is not up-to-date. The last update was on the 29<sup>th</sup> of April.</em>
 
 # Introduction
 
@@ -20,10 +20,10 @@ There are some T&Cs. You can swap points 2. and 3. or even combine them. You mig
 
 When it comes to choosing a language (or fully-fledged software) for your data visualization needs, it should score pretty high at executing these steps. So who are the top contenders? PowerBI is great for visualizations and shareability, it's pretty bad at data wrangling though (and quite simply horrendous at statistical analysis without applying a great deal of effort). Ditto for Tableau, if you're wondering. So I gave [R](https://www.r-project.org/) (and it's IDE, [RStudio](https://www.rstudio.com/)) a try, and here are the results.
 
-1. Clean - I used [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8)
-2. Visualize - I used [ggplot2](https://www.rdocumentation.org/packages/ggplot2/versions/3.3.5)
-3. Analyze (or model) - Again, I used [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8)
-4. Productionalise (or share) - I used [shiny](https://shiny.rstudio.com/)
+1. Clean - I used [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8).
+2. Visualize - I used [ggplot2](https://www.rdocumentation.org/packages/ggplot2/versions/3.3.5).
+3. Analyze (or model) - Again, I used [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8).
+4. Productionalise (or share) - I used [shiny](https://shiny.rstudio.com/).
 
 (Quick tip: check out [tidyverse](https://www.tidyverse.org/packages/).)
 
