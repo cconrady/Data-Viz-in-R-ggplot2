@@ -6,7 +6,7 @@ There's a misconception within the data community that [R](https://www.r-project
   <img src="assets/A3_COV19_RViz1_Sample.gif" alt="animated"/>
 </p>
 
-<em><sup>\*</sup>This visualisations presented here are meant for illustrative purposes only, and the data pertaining to COVID-19 is not up-to-date. The data was last updated on 29-Apr-2019.</em>
+<em><sup>\*</sup>The visualisations presented here are meant for illustrative purposes only, and the data pertaining to COVID-19 is not up-to-date. The data was last updated on 29-Apr-2019.</em>
 
 ## Background
 
@@ -33,7 +33,7 @@ You can find the interactive COVID-19 dashboard I created [here](https://github.
 
 PS. Check out the [tidyverse](https://www.tidyverse.org/packages/) package. It's a collection of useful packages like `dplyr` and `ggplot2`, and a bunch of others.
 
-PPS. I'm not going to pretend that Python isn't a great option, perhaps even better than R. For starters, the community is much larger - and this matters. A lot. You'll have better luck finding sample code online. You'll have a wider selection of packages. You'll find more tutorials online, more courses. But you won't be able to order a pizza<sup>\*</sup>. You may have heard this before, it's a pretty common saying. It's meant to drive home the idea that no single programming language or software can do _everything_. It's about choosing the right tool (or combination of tools) for the job. And with this in mind, you should definitely 
+PPS. I'm not going to pretend that Python isn't a great option, perhaps even better than R. For starters, the community is much larger - and this matters. A lot. You'll have better luck finding sample code online. You'll have a wider selection of packages. You'll find more tutorials online, more courses. But you won't be able to order a pizza<sup>\*</sup>. You may have heard this before, it's a pretty common saying. It's meant to drive home the idea that no single programming language or software can do _everything_. It's about choosing the right tool (or combination of tools) for the job. With this in mind, it's not a bad idea to learn R. Like a Phillips screwdriver, it may come in handy one day!
 
 <em><sup>\*</sup>As of 24-Aug-2021, you can definitely order a pizza using Python.</em>
 
