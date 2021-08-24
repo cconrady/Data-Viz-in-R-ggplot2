@@ -22,7 +22,7 @@ Note: The files provided in this repository (dataset, weights, model) should be 
 5. Setup a Python environment (an Anaconda virtual environment is recommended). Please use the environment file [here](https://github.com/FishCV/fishcv.github.io/tree/main/model) for this purpose.
 6. From the console, `cd` into `../Mask_RCNN/samples/redroman/` to execute sample code (see below) for training/ inference.
 
-![CoVid19 Viz Sample](assets/A3_COV19_Rviz2.JPG)
+![CoVid19 Viz Sample](assets/A3_COV19_RViz2.JPG)
 
 ## Training
 
