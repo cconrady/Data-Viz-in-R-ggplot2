@@ -1,19 +1,36 @@
-# CoVid19: Data Viz in R (ggplot2) & Shiny
+# COVID-19: Data Viz in R (ggplot2) & Shiny
 
-[![CC BY 4.0][cc-by-shield]][cc-by]
-
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
-
-Still used today, the most widely used method of analysis for marine ecological data is manual review by trained human experts. The majority of analysis of this data is concerned with extracting information on the abundance, distribution and behaviour of the studied marine organism(s). This task can be broken down into four sub-tasks, frequently performed on a target species: (_i_) locate, (_ii_) identify, (_iii_) count, and (_iv_) track. **This research proposes an object detection and tracking algorithm for red roman (_Chrysoblephus laticeps_) in Cape Town, South Africa.** The model is capable of automating all four sub-tasks above at a test accuracy of mAP<sub>50</sub> = 81.45% on previously unseen footage. This research serves as a proof-of-concept that machine learning based methods of video analysis of marine data can replace or at least supplement human analysis.
+There's a misconception within the data community that R is only good for statistical analysis. And yes, R is great for that, but it can produce some pretty stunning data visualizations too! Here I present an interactive dashboard for the early spread of COVID-19<sup>\*</sup>.
 
 ![CoVid19 Viz Video Sample](assets/A3_COV19_RViz1_Sample.gif)
 
+<em><sup>\*</sup>This dashboard is meant for presentation only, and the data pertaining to CoVid19 is not up-to-date. The last update was on the 29<sup>th</sup> of April.</em>
+
+# Introduction
+
+Ask any data scientist and they'll tend to agree, there is a recipe to studying data, and it's this:
+
+1. Clean
+2. Visualize
+3. Analyze (or model)
+4. Productionalise (or share)
+5. Monitor (and update)
+
+There are some T&Cs. You can swap points 2. and 3. or even combine them. You might also jump between these points - the analysis of any data is often an iterative process. That said, the above recipe is as close as you'll ever get to a once-size-fits-all approach.
+
+When it comes to choosing a language (or fully-fledged software) for your data visualization needs, it should score pretty high at executing these steps. So who are the top contenders? PowerBI is great for visualizations and shareability, it's pretty bad at data wrangling though (and quite simply horrendous at statistical analysis without applying a great deal of effort). Ditto for Tableau, if you're wondering. So I gave [R](https://www.r-project.org/) (and it's IDE, [RStudio](https://www.rstudio.com/)) a try, and here are the results.
+
+1. Clean - I used [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8)
+2. Visualize - I used [ggplot2](https://www.rdocumentation.org/packages/ggplot2/versions/3.3.5)
+3. Analyze (or model) - Again, I used [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8)
+4. Productionalise (or share) - I used [shiny](https://shiny.rstudio.com/)
+
+(Quick tip: check out [tidyverse](https://www.tidyverse.org/packages/).)
+
 ## Installation
 
-The red roman model relies on the [matterport implementation](https://github.com/matterport/Mask_RCNN) of [Mask R-CNN](https://arxiv.org/abs/1703.06870) (requires "installation"). The model combines the matterport library with a generic [centroid object tracking](https://www.pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/) method (does not require installation).
 
-Note: The files provided in this repository (dataset, weights, model) should be copied into the [Mask_RCNN](https://github.com/matterport/Mask_RCNN) directory created in step 1.
+<!-- 
 
 1. Clone the [Matterport Mask R-CNN repository](https://github.com/matterport/Mask_RCNN) and follow the installation instructions. You may be required to install additional software.
 2. Download the red roman dataset splits `train`, `test` and `val`, available in this respository [here](https://github.com/FishCV/fishcv.github.io/tree/main/dataset/via). These datasets should be placed in the path: `../Mask_RCNN/datasets/redroman/`. (This will be inside the local matterport directory created in 1.)
@@ -22,7 +39,9 @@ Note: The files provided in this repository (dataset, weights, model) should be 
 5. Setup a Python environment (an Anaconda virtual environment is recommended). Please use the environment file [here](https://github.com/FishCV/fishcv.github.io/tree/main/model) for this purpose.
 6. From the console, `cd` into `../Mask_RCNN/samples/redroman/` to execute sample code (see below) for training/ inference.
 
-![CoVid19 Viz Sample](assets/A3_COV19_RViz2_Sample.JPG)
+<p align="center">
+  <img src="assets/A3_COV19_RViz2_Sample.JPG"/>
+</p>
 
 ## Training
 
@@ -96,5 +115,7 @@ class FishInferenceConfig(FishConfig):
     """
     
     # [1] e.g. You can increase this during training to generate more propsals.
-    RPN_NMS_THRESHOLD = 0.7    
+    RPN_NMS_THRESHOLD = 0.7
 ```
+
+-->
