@@ -1,6 +1,6 @@
 # COVID-19: Data Viz in R (ggplot2) & Shiny
 
-There's a misconception within the data community that [R](https://www.r-project.org/) is only good for statistical analysis. And yes, R is great for that, but it can produce some pretty stunning data visualizations too! Here I present an interactive dashboard for the early spread of COVID-19<sup>\*</sup> built using R and [Shiny](https://shiny.rstudio.com/).
+There's a misconception within the data community that [R](https://www.r-project.org/) is only good for statistical analysis. And yes, R is great for that, but it can produce some pretty stunning data visualizations too! Here I present an interactive dashboard for the early spread of COVID-19<sup>\*</sup> built using [R](https://www.r-project.org/) and [Shiny](https://shiny.rstudio.com/).
 
 <p align="center">
   <img src="assets/A3_COV19_RViz1_Sample.gif" alt="animated"/>
@@ -12,11 +12,11 @@ There's a misconception within the data community that [R](https://www.r-project
 
 Ask any data scientist and they'll tend to agree, there is a recipe to studying data, and it's this:
 
-1. Clean
-2. Visualize
-3. Analyze (or model)
-4. Productionalise (or share)
-5. Monitor (and update)
+1. **Clean**
+2. **Visualize**
+3. **Analyze (or model)**
+4. **Productionalise (or share)**
+5. **Monitor (and update)**
 
 There are some T&Cs. You can swap the order of points 2. and 3. or even combine them (ever heard of EDA?). You might also jump between these points - the analysis of any data is often an iterative process. That said, the above recipe is generally a good starting point.
 
@@ -33,7 +33,7 @@ When it comes to choosing a language or software package for data visualization 
 
 ## Installation
 
-Visit the official site for [RStudio](https://www.rstudio.com/products/rstudio/) and follow the installation instructions. It's a simple "download and double-click" type of installation. You'll also have to do the same for [R](https://www.r-project.org/). Open a new notebook, and paste this into the first cell or block. That's it! RStudio will find the packages automatically (if you haven't already got them).
+Visit the official site for [RStudio](https://www.rstudio.com/products/rstudio/) and follow the installation instructions. It's a simple "download and double-click" type of installation. You'll also have to do the same for [R](https://www.r-project.org/). When you've got RStudio setup, create a new notebook. `File`, then `New File`, then `R Notebook`. Finally, paste the below into the first cell or block. That's it! RStudio will find the packages automatically (if you haven't already got them).
 
 ```R
 
