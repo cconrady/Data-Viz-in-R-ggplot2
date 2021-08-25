@@ -33,7 +33,7 @@ You can find the interactive COVID-19 dashboard I created [here](https://github.
 
 PS. Check out the [tidyverse](https://www.tidyverse.org/packages/) package. It's a collection of useful packages like `dplyr` and `ggplot2`, and a bunch of others.
 
-PPS. I'm not going to pretend that Python isn't a great option, perhaps even better than R. For starters, the community is much larger - and this matters. A lot. You'll have better luck finding sample code online. You'll have a wider selection of packages. You'll find more tutorials online, more courses. But you won't be able to order a pizza<sup>\*</sup>. You may have heard this before, it's a pretty common saying. It's meant to drive home the idea that no single programming language or software can do _everything_. It's about choosing the right tool (or combination of tools) for the job. With this in mind, it's not a bad idea to learn R. Like a Phillips screwdriver, it may come in handy one day!
+PPS. I'm not going to pretend that Python isn't a great option, perhaps even better than R. For starters, the community is much larger - and this matters. A lot. You'll have better luck finding sample code online. You'll have a wider selection of packages. You'll find more tutorials online, more courses. But you won't be able to order a pizza<sup>\*</sup>. You may have heard this before, it's a pretty common saying. It's meant to drive home the idea that no single programming language (or software) can do _everything_. It's about choosing the right tool (or combination of tools) for the job. With this in mind, it's not a bad idea to learn R. Like a Phillips screwdriver, it may come in handy one day!
 
 <em><sup>\*</sup>As of 24-Aug-2021, you can definitely order a pizza using Python.</em>
 
